@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <h2>Todo Application</h2>
+
+<div class="ffd">
+    <center>
+
+    <div class="main">
+        <input placeholder="ENTER TODO" type="text" id="todo-item">
+        <button onclick="addTodo()"><i id="icon1" class="fa fa-plus"></i></button>
+        <button onclick=" deleteAll()"><i id="icon2" class="fa fa-trash"></i></button>
+    </div>
+</center>
+
+        <div>
+        <ul id="list">
+
+        </ul>
+    </div>
+</div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
